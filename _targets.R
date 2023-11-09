@@ -1,4 +1,9 @@
-library(targets)
+# _targets pipeline infrastructure
+
+source('packages.R')
+
+tar_source()
+
 # This is an example _targets.R file. Every
 # {targets} pipeline needs one.
 # Use tar_script() to create _targets.R and tar_edit()
